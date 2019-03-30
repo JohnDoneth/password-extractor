@@ -1,0 +1,13 @@
+[package]
+name = "password-extractor"
+version = "0.1.0"
+authors = ["John C. Doneth <doneth7@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rayon = "1.0.3"
+walkdir = "2.2.7"
+clap = "2.32.0"
+indicatif = "0.11.0"
+crossbeam-channel = "0.3.8"
+sysinfo = "0.8.2"
